@@ -5,14 +5,16 @@
 
 body {
     background-image: url("./pink.jpg");
-    background-size: contain;
-    background-position: center center;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-div {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 0;
-
 }
 
 .countdown-container {
@@ -21,7 +23,6 @@ body {
     text-align: center;
     margin-left: 25px;
     flex-direction: wrap;
-    align-items: center;
     justify-content: center;
 }
 
