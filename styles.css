@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url("./pink.jpg");
+    background-size: contain;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+
+}
+
+.countdown-container {
+    display: flex ;
+    align-items: center;
+    text-align: center;
+    margin-left: 25px;
+}
+
+span {
+    text-align: center;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.big-text {
+    font-size: 120px;
+    margin: 13px;
+    margin-right: 29px;
+    text-align: center;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    text-shadow: 4px 1px 9px #c210b0;
+}
