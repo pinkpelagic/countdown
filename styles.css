@@ -20,6 +20,9 @@ body {
     align-items: center;
     text-align: center;
     margin-left: 25px;
+    flex-direction: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 span {
